@@ -43,4 +43,4 @@ jobs:
     
     #Deploy Surge
     - name: Run Surge
-      run: surge ./build project02jp.surge.su --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build project02jp.surge.sh --token ${{secrets.SURGE_TOKEN}}
